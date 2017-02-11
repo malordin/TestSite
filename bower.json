@@ -1,0 +1,6 @@
+{
+  "name": "TestSite",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
