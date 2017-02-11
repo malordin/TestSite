@@ -19,13 +19,13 @@ gulp.task('html', function () {
 
 // CSS
 gulp.task('css', function () {
-  gulp.src('./app/*.css')
+  gulp.src('./app/css/*.css')
     .pipe(connect.reload());
 });
 
 // JS
 gulp.task('js', function () {
-  gulp.src('./app/*.js')
+  gulp.src('./app/js/*.js')
     .pipe(connect.reload());
 });
 
